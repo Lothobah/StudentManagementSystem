@@ -1,1 +1,2 @@
-web: gunicorn StudentManagementSystem.wsgi --log-file -
+
+web: node server.js 
