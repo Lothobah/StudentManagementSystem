@@ -1,0 +1,9 @@
+{% block content %}
+<form action="add_two_numbers" method="POST">
+{% csrf_token %}
+Enter Num1:<input type="text" name="number1">
+Enter Num2:<input type="text" name="number2">
+Submit :<input type="submit" name="submit">
+<p>The result is: {{ result }}</p>
+</form>
+{% endblock %}

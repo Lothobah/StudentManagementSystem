@@ -1,0 +1,8 @@
+.nav-content{
+    
+    font-size: larger;
+}
+.nav-content:hover{
+    color: red;
+    box-shadow:black;
+}
