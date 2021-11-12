@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-8x8u%x6es+gp&!eexrn$vhec6@-2sdkw7rzntrfx90f%4iq22-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','kingloth-sms-alliance.herokuapp.com']
 # Application definition
